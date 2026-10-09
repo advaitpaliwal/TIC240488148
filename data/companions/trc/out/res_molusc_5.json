@@ -1,0 +1,1 @@
+{"mode": "molusc", "run": 5, "depth_ppm": 394.71580963323925, "err_ppm": 70.41927789102532, "nbins": 72, "cc": null, "molusc": "../molusc_out/molusc_for_trc_N1e6.csv", "FPP": 0.025233941488243428, "NFPP": 0.003975327173745055, "sec": 1401.6813292503357}

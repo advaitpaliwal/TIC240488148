@@ -1,0 +1,4 @@
+\ DRAFT — not uploaded. ExoFOP bulk "new community candidate" row (template: https://exofop.ipac.caltech.edu/tess/templates/params_planet_YYYYMMDD_001.txt)
+\ Still needed before upload: the ExoFOP username (for the tag) and the published Research Note URL (paper column).
+target|flag|disp|discovery|candname|period|period_unc|epoch|epoch_unc|depth|depth_unc|duration|duration_unc|inc|inc_unc|imp|imp_unc|r_planet|r_planet_err|ar_star|ar_star_err|radius|radius_unc|mass|mass_unc|temp|temp_unc|insol|insol_unc|dens|dens_unc|sma|sma_unc|ecc|ecc_unc|arg_peri|arg_peri_err|time_peri|time_peri_unc|vsa|vsa_unc|tag|group|prop_period|paper|notes
+TIC240488148.01|newctoi|PC|||1.5125149|0.0000029|2460393.34348|0.0013|411|28|1.41|0.07|86.8|1.8|0.42|0.21|0.01873|0.0009|7.59|0.65|1.37|0.14|||1133|60|294|30|3.6|0.9|0.02279|0.0009|||||||||[TAG]||0|[RNAAS URL]|1.37 Re candidate, TESS FFIs S15-83; neighbours excluded by pixels; FPP 0.024 w/ Gaia; needs HRI

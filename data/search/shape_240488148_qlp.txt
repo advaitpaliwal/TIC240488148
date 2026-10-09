@@ -1,0 +1,9 @@
+best SNR 13.54 P 1.512529 T0 1712.9250 dur_h 1.50 depth 390+-29
+odd 369+-41 even 414+-40  diff 0.79 sigma
+secondary 39+-30
+inner 430 outer 349 ppm (U-shape: similar; V: outer much smaller)
+P x 0.50: depth 215 +- 21
+P x 2.00: depth 414 +- 40
+P x 3.00: depth 295 +- 49
+P x 0.33: depth 134 +- 17
+P x 1.50: depth 167 +- 36

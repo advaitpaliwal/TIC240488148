@@ -1,0 +1,18 @@
+In preparation for Gaia DR4, the Gaia archive is in evolution. Unfortunately, it may be unstable at times and particular types of queries may time out. Please consider registering for a user account (https://www.cosmos.esa.int/web/gaia-users/register). For questions or advice, please contact the Gaia helpdesk (https://www.cosmos.esa.int/web/gaia/gaia-helpdesk).
+Star RA: 21h34m30.83858601s
+Star DEC: +42d38m36.7415772s
+Star Mass: 0.69
+Generating Companions..
+Generation Mass Ratio Exponent:  0.0
+Companions Generated
+Number of companions: 50000
+Analyzing RUWE...
+VizieR Gaia: nearest 1967568881023980032 RUWE 1.039
+Analyzing Gaia Contrast...
+LOADING STELLAR MODEL...
+VizieR Gaia: nearest 1967568881023980032 RUWE 1.039
+WARNING: More than one source within 10 arcseconds of given coordinates. Closest one used.
+Star Model Mag 7.1261449544594635
+Total number of surviving binaries: 24071
+Surviving binary parameters saved to: ../../molusc_out/m50k_s12_kept.csv
+Generated binary parameters saved to: ../../molusc_out/m50k_s12_all.csv

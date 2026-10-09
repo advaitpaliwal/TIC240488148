@@ -1,0 +1,82 @@
+{
+ "QLP_S15": {
+  "cad_min": 30.0,
+  "depth_ppm": 384,
+  "err_emp_ppm": 133,
+  "n_in": 27
+ },
+ "QLP_S16": {
+  "cad_min": 30.0,
+  "depth_ppm": 222,
+  "err_emp_ppm": 93,
+  "n_in": 24
+ },
+ "QLP_S56": {
+  "cad_min": 3.3,
+  "depth_ppm": 504,
+  "err_emp_ppm": 55,
+  "n_in": 350
+ },
+ "QLP_S82": {
+  "cad_min": 3.3,
+  "depth_ppm": 483,
+  "err_emp_ppm": 75,
+  "n_in": 305
+ },
+ "QLP_S83": {
+  "cad_min": 3.3,
+  "depth_ppm": 326,
+  "err_emp_ppm": 66,
+  "n_in": 289
+ },
+ "QLP_combined": {
+  "depth_ppm": 412,
+  "err_ppm": 33,
+  "snr": 12.42,
+  "chi2": 9.6,
+  "dof": 4
+ },
+ "TESS-SPOC_S15": {
+  "cad_min": 30.0,
+  "depth_ppm": 337,
+  "err_emp_ppm": 91,
+  "n_in": 28
+ },
+ "TESS-SPOC_S16": {
+  "cad_min": 30.0,
+  "depth_ppm": 230,
+  "err_emp_ppm": 73,
+  "n_in": 28
+ },
+ "TESS-SPOC_S56": {
+  "cad_min": 3.3,
+  "depth_ppm": 413,
+  "err_emp_ppm": 57,
+  "n_in": 313
+ },
+ "TESS-SPOC_S76": {
+  "cad_min": 3.3,
+  "depth_ppm": 438,
+  "err_emp_ppm": 90,
+  "n_in": 252
+ },
+ "TESS-SPOC_S82": {
+  "cad_min": 3.3,
+  "depth_ppm": 433,
+  "err_emp_ppm": 59,
+  "n_in": 302
+ },
+ "TESS-SPOC_S83": {
+  "cad_min": 3.3,
+  "depth_ppm": 340,
+  "err_emp_ppm": 81,
+  "n_in": 289
+ },
+ "TESS-SPOC_combined": {
+  "depth_ppm": 374,
+  "err_ppm": 29,
+  "snr": 12.85,
+  "chi2": 6.2,
+  "dof": 5
+ }
+}

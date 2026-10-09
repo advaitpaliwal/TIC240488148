@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "work/tic240488148-localize/.venv/lib/python3.12/site-packages/lightkurve/search.py", line 295, in _download_one
+    path = self._fetch_tesscut_path(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "work/tic240488148-localize/.venv/lib/python3.12/site-packages/lightkurve/search.py", line 582, in _fetch_tesscut_path
+    cutout_path = TesscutClass().download_cutouts(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "work/tic240488148-localize/.venv/lib/python3.12/site-packages/astropy/utils/decorators.py", line 620, in wrapper
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "work/tic240488148-localize/.venv/lib/python3.12/site-packages/astroquery/mast/cutouts.py", line 360, in download_cutouts
+    zip_ref.extractall(path, members=cutout_files)
+  File "~/.local/share/uv/python/cpython-3.12.14-macos-aarch64-none/lib/python3.12/zipfile/__init__.py", line 1771, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "~/.local/share/uv/python/cpython-3.12.14-macos-aarch64-none/lib/python3.12/zipfile/__init__.py", line 1837, in _extract_member
+    with self.open(member, pwd=pwd) as source, \
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/.local/share/uv/python/cpython-3.12.14-macos-aarch64-none/lib/python3.12/zipfile/__init__.py", line 1638, in open
+    fheader = zef_file.read(sizeFileHeader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/.local/share/uv/python/cpython-3.12.14-macos-aarch64-none/lib/python3.12/zipfile/__init__.py", line 826, in read
+    self._file.seek(self._pos)
+OSError: [Errno 22] Invalid argument
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "work/tic240488148-localize/dl.py", line 4, in <module>
+    tpf=r.download(cutout_size=15,download_dir='cut')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "work/tic240488148-localize/.venv/lib/python3.12/site-packages/lightkurve/utils.py", line 568, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "work/tic240488148-localize/.venv/lib/python3.12/site-packages/lightkurve/search.py", line 430, in download
+    return self._download_one(
+           ^^^^^^^^^^^^^^^^^^^
+  File "work/tic240488148-localize/.venv/lib/python3.12/site-packages/lightkurve/search.py", line 312, in _download_one
+    raise SearchError(
+lightkurve.search.SearchError: Unable to download FFI cutout. Desired target coordinates may be too near the edge of the FFI.Error: [Errno 22] Invalid argument

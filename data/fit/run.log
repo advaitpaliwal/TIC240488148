@@ -1,0 +1,9 @@
+15 217 oot rms ppm 312
+16 239 oot rms ppm 320
+56 2542 oot rms ppm 953
+76 2200 oot rms ppm 960
+82 2507 oot rms ppm 898
+83 2558 oot rms ppm 919
+MAP {'T0': np.float64(3393.3428599250497), 'P': np.float64(1.5125146063557675), 'k': np.float64(0.019057500995122625), 'b': np.float64(0.5157704799415858), 'rho': np.float64(3.1253595980434796), 'q1': np.float64(0.37905746023243325), 'q2': np.float64(0.37838759352953555), 'f0': np.float64(0.9999786130061405), 'lnsL': np.float64(-9.223770231093894), 'lnsS': np.float64(-11.999999999371333)} 66793.21555208105
+tau {'T0': np.float64(186.5), 'P': np.float64(169.0), 'k': np.float64(187.5), 'b': np.float64(237.2), 'rho': np.float64(165.9), 'q1': np.float64(166.9), 'q2': np.float64(171.0), 'f0': np.float64(170.3), 'lnsL': np.float64(232.7), 'lnsS': np.float64(197.0)}
+acc 0.33176875 n 21320

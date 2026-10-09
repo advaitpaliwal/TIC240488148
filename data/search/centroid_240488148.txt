@@ -1,0 +1,6 @@
+spoc_s15.fits: dx -1.6 dy -2.4 mas; z -0.81 -0.81
+spoc_s16.fits: dx 3.4 dy 0.9 mas; z 2.13 0.69
+spoc_s56.fits: dx -1.6 dy 5.5 mas; z -0.41 1.99
+spoc_s76.fits: dx -0.2 dy 2.3 mas; z 0.01 1.84
+spoc_s82.fits: dx -2.3 dy 0.1 mas; z -0.39 0.12
+spoc_s83.fits: dx -1.8 dy 6.3 mas; z -0.72 2.34

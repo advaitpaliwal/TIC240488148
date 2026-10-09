@@ -1,0 +1,40 @@
+C.D.S.  -  SIMBAD4 rel 1.8  -  2026.10.08CEST21:44:32
+
+TIC 240488148
+-------------
+
+Object TYC 3191-503-1  ---  PM*  ---  OID=@6823626   (@@-1,255)  ---  coobox=132
+
+Coordinates(ICRS,ep=J2000,eq=2000): 21 34 30.7890288720  +42 38 38.524493112 (Opt ) A [0.0092 0.0103 90] 2020yCat.1350....0G
+Coordinates(FK4,ep=B1950,eq=1950): 21 32 33.4154151638  +42 25 19.786157775
+Coordinates(Gal,ep=J2000,eq=2000): 088.8035666410687  -06.8108792974106
+hierarchy counts: #parents=0, #children=0, #siblings=0
+Proper motions: 34.175 -111.434 [0.012 0.013 90] A 2020yCat.1350....0G
+Parallax: 16.9962 [0.0125] A 2020yCat.1350....0G
+Radial Velocity: -43.89 [0.36] A 2018yCat.1345....0G
+Redshift: -0.000146 [0.000001] A 2018yCat.1345....0G
+cz: -43.89 [0.36] A 2018yCat.1345....0G
+Flux B : 12.28 [0.18] D 2000A&A...355L..27H
+Flux V : 11.26 [0.08] D 2000A&A...355L..27H
+Flux G : 10.877791 [0.002759] C 2020yCat.1350....0G
+Flux J : 9.152 [0.02] C 2003yCat.2246....0C
+Flux H : 8.531 [0.024] C 2003yCat.2246....0C
+Flux K : 8.432 [0.016] C 2003yCat.2246....0C
+Spectral type: ~ ~ ~
+Morphological type: ~ ~ ~
+Angular size:     ~     ~   ~ (~)  ~ ~
+
+Identifiers (6):
+   TIC 240488148                        Gaia DR3 1967568881023980032         TYC 3191-503-1                     
+   2MASS J21343078+4238386              Gaia DR1 1967568876719852288         Gaia DR2 1967568881023980032       
+
+Bibcodes  1850-2026 () (3):
+  2023AJ....165..267H  2021A&A...649A...6G  2018A&A...609A.116R            
+
+Measures (distance:2  PLX:3  PM:2  velocities:1  ):
+distance:2PLX:3PM:2velocities:1
+
+Notes (0) :
+
+================================================================================
+

@@ -1,0 +1,5 @@
+import sys, lightkurve as lk, warnings; warnings.filterwarnings('ignore')
+s=int(sys.argv[1])
+r=lk.search_tesscut('TIC 240488148',sector=s)
+tpf=r.download(cutout_size=15,download_dir='cut')
+print(s,tpf.path if hasattr(tpf,'path') else tpf, tpf.shape)

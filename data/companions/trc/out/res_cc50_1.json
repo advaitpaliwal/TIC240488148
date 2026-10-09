@@ -1,0 +1,1 @@
+{"mode": "cc50", "run": 1, "depth_ppm": 394.71580963323925, "err_ppm": 70.41927789102532, "nbins": 72, "cc": "../cc_gaia_dr2completeness_50pct_G.csv", "molusc": null, "FPP": 0.0597523884885115, "NFPP": 0.003767177349821722, "sec": 1484.088953256607}

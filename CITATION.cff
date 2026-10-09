@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this candidate, its ephemeris or this code, please cite it as below."
+title: "TIC 240488148.01: a 1.4 Earth-radius, 1.51-day transiting planet candidate around the nearby K dwarf TIC 240488148"
+type: dataset
+authors:
+  - family-names: Paliwal
+    given-names: Advait
+    email: advaitpaliwal@gmail.com
+version: "1.0"
+date-released: "2026-10-09"
+license: CC-BY-4.0
+repository-code: "https://github.com/advaitpaliwal/TIC240488148"
+url: "https://github.com/advaitpaliwal/TIC240488148"
+abstract: >-
+  A transit-like signal on TIC 240488148 (TYC 3191-503-1), a K dwarf at 58.7 pc,
+  found on 2026-10-08 in TESS full-frame-image photometry from Sectors 15, 16, 56,
+  76, 82 and 83. Period 1.5125149 +/- 0.0000029 d, mid-transit BJD_TDB
+  2460393.34348 +/- 0.0013, depth 411 +/- 28 ppm, duration 1.41 h, radius
+  1.37 +/- 0.14 Earth radii. False-positive probability 0.024 with Gaia companion
+  limits, so a planet candidate, not a validated planet.
+keywords:
+  - exoplanet
+  - transit
+  - TESS
+  - planet candidate
+  - TIC 240488148

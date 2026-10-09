@@ -1,0 +1,26 @@
+In preparation for Gaia DR4, the Gaia archive is in evolution. Unfortunately, it may be unstable at times and particular types of queries may time out. Please consider registering for a user account (https://www.cosmos.esa.int/web/gaia-users/register). For questions or advice, please contact the Gaia helpdesk (https://www.cosmos.esa.int/web/gaia/gaia-helpdesk).
+building target
+VizieR Gaia field stars: 7637
+VizieR Gaia field stars: 7637
+Getting TessCut for sector 15
+Getting TessCut for sector 16
+Getting TessCut for sector 56
+Getting TessCut for sector 76
+Getting TessCut for sector 82
+Getting TessCut for sector 83
+Estimated missing stellar parameters for 426 of 798 stars from photometry. See the 'params_estimated' column of the .stars dataframe. 41 appear evolved and were assigned a nominal 1 M_Sun.
+target ok
+WARNING: 2007804784 is missing stellar properties. If a mass (in M_Sun), radius (in R_Sun), and/or Teff (in K) are not added to the .stars dataframe, Solar values will be assumed.
+240488148_0 0.08679690970859988 0.0037644051257097327 185
+In preparation for Gaia DR4, the Gaia archive is in evolution. Unfortunately, it may be unstable at times and particular types of queries may time out. Please consider registering for a user account (https://www.cosmos.esa.int/web/gaia-users/register). For questions or advice, please contact the Gaia helpdesk (https://www.cosmos.esa.int/web/gaia/gaia-helpdesk).
+WARNING: 2007804784 is missing stellar properties. If a mass (in M_Sun), radius (in R_Sun), and/or Teff (in K) are not added to the .stars dataframe, Solar values will be assumed.
+240488148_1 0.07956559534158747 0.0038213301624774225 192
+In preparation for Gaia DR4, the Gaia archive is in evolution. Unfortunately, it may be unstable at times and particular types of queries may time out. Please consider registering for a user account (https://www.cosmos.esa.int/web/gaia-users/register). For questions or advice, please contact the Gaia helpdesk (https://www.cosmos.esa.int/web/gaia/gaia-helpdesk).
+WARNING: 2007804784 is missing stellar properties. If a mass (in M_Sun), radius (in R_Sun), and/or Teff (in K) are not added to the .stars dataframe, Solar values will be assumed.
+240488148_2 0.08050647672999123 0.003479537625907789 154
+In preparation for Gaia DR4, the Gaia archive is in evolution. Unfortunately, it may be unstable at times and particular types of queries may time out. Please consider registering for a user account (https://www.cosmos.esa.int/web/gaia-users/register). For questions or advice, please contact the Gaia helpdesk (https://www.cosmos.esa.int/web/gaia/gaia-helpdesk).
+WARNING: 2007804784 is missing stellar properties. If a mass (in M_Sun), radius (in R_Sun), and/or Teff (in K) are not added to the .stars dataframe, Solar values will be assumed.
+240488148_3 0.07746686447017326 0.003458077817938458 135
+In preparation for Gaia DR4, the Gaia archive is in evolution. Unfortunately, it may be unstable at times and particular types of queries may time out. Please consider registering for a user account (https://www.cosmos.esa.int/web/gaia-users/register). For questions or advice, please contact the Gaia helpdesk (https://www.cosmos.esa.int/web/gaia/gaia-helpdesk).
+WARNING: 2007804784 is missing stellar properties. If a mass (in M_Sun), radius (in R_Sun), and/or Teff (in K) are not added to the .stars dataframe, Solar values will be assumed.
+240488148_4 0.08162876913032313 0.0036502831983896192 129
