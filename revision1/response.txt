@@ -1,0 +1,20 @@
+Dear Dr. Lintott,
+
+Thank you for your careful reading. I have revised the note as follows.
+
+1. Difference analysis in only three sectors. This was not a choice of method. The difference images for Sectors 56, 76 and 82 had not finished processing when I drafted the note. I have now run the same analysis in all six sectors. TIC 240488141 (T = 14.6, 46") would have to lose 9-43 e/s at its position; the measured change there is consistent with zero in every sector. It is ruled out in each sector individually, with Delta chi^2 from 699 to 21,069 (42,124 in total). Each of the 26 other catalogued stars between 22.5" and 69" is also ruled out in every sector, not only in the sum. The text now says "all six sectors". It also corrects my earlier "11"-69"" to 22.5"-69", and states that three faint stars (G ~ 19-20) within 12" cannot be separated from the target at TESS resolution.
+
+2. Chi-squared values. The text now defines both. (a) The per-sector consistency value is chi^2 of the six box depths about their inverse-variance weighted mean (374 +/- 29 ppm). Each depth is the median out-of-transit flux minus the mean in-transit flux, and each error is the scatter of the same statistic at 300 random phases. (b) The localisation Delta chi^2 is computed on the 15x15-pixel TESScut difference image, with per-pixel noise taken from 120 difference images at random phases. It is chi^2 of a model with the TESS PRF at the neighbour, scaled to the flux loss that neighbour would need, minus chi^2 of a free-amplitude PRF at the target. I also now quote the QLP value (chi^2 = 9.6 for 4 dof).
+
+3. Removal of excluded neighbours. I agree that the very low value should not be quoted on its own. The revision leads with the result with no neighbours removed: FPP = 0.024 +/- 0.004 and NFPP = 0.004 (ten runs, all 798 Gaia sources retained). 97% of that NFPP comes from a single star, TIC 240488141, which the six-sector difference images rule out (point 1). Following Giacalone et al. (2021, Section 2.2), who allow nearby-star scenarios to be omitted once they are ruled out, I remove only that star, which gives NFPP = 1.3e-4 and FPP = 0.020 +/- 0.004. The text states that this exclusion rests on TESS pixels rather than ground-based photometry. The value of about 7e-9 has been removed. In every case the FPP is above 0.015, and I make no validation claim.
+
+4. Use of wotan. The text now separates the two steps. The search used the lightkurve Savitzky-Golay flatten (0.75 d window, no transit mask, light curves binned to 30 minutes). The note previously implied wotan here, which was wrong. The fit used wotan's biweight filter with a 0.75 d window; points within +/-1.875 h of each predicted transit were removed before detrending and the trend interpolated across them.
+
+5. Unfolded light curve. Figure 1 now has three panels: the folded light curve; the full unfolded Sector 82 light curve (200 s), showing PDCSAP flux with the detrending trend, the detrended flux, and predicted transit times; and four evenly spaced individual transits from that sector. At TESS precision a single transit has S/N of about 2, so the signal becomes clear only after folding.
+
+6. Use of MOLUSC. MOLUSC (Wood et al. 2021) was run with its Gaia RUWE and contrast tests. It generated 200,000 companions and kept 48% as consistent with the Gaia data. The kept companions (mass ratio, semi-major axis, eccentricity) were passed to TRICERATOPS in place of its default companion prior. They therefore affect only the bound-companion scenarios (PTP, PEB, STP, SEB and their twice-period versions). The text says this.
+
+Code and all intermediate outputs are at https://github.com/advaitpaliwal/TIC240488148.
+
+Sincerely,
+Advait Paliwal
